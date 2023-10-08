@@ -65,6 +65,6 @@
     
     }
 
-canvas.addEventListener("touchstart", startpoint);
-canvas.addEventListener("touchmove", draw);
-canvas.addEventListener("touchend", endpoint);
+canvas.addEventListener("mousedown", startpoint);
+canvas.addEventListener("mousemove", draw);
+canvas.addEventListener("mouseup", endpoint);
